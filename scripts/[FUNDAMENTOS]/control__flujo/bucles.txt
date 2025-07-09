@@ -1,0 +1,96 @@
+Comandos útiles dentro de bucles:
+
+	break: sale del bucle
+	continue: salta al siguiente ciclo
+
+======================================================================================================================
+Bucle for clásico (tipo C)
+======================================================================================================================
+
+Sintaxis:
+
+for (( inicialización; condición; incremento )); do
+    comandos
+done
+
+Ejemplo:
+
+for (( i=1; i<=5; i++ )); do
+    echo "Número: $i"
+done
+
+======================================================================================================================
+Bucle for...in (iteración sobre lista)
+======================================================================================================================
+
+Sintaxis:
+
+for variable in lista; do
+    comandos
+done
+
+Ejemplo:
+
+for nombre in Ana Juan Luis; do
+    echo "Hola, $nombre"
+done
+
+También funciona con rangos:
+
+for i in {1..5}; do
+    echo "Número: $i"
+done
+
+======================================================================================================================
+Bucle while
+======================================================================================================================
+
+Sintaxis:
+
+while [ condición ]; do
+    comandos
+done
+
+Ejemplo:
+
+contador=1
+while [ $contador -le 5 ]; do
+    echo "Contador: $contador"
+    ((contador++))
+done
+
+======================================================================================================================
+Bucle until (al revés que while)
+======================================================================================================================
+
+Sintaxis:
+
+until [ condición ]; do
+    comandos
+done
+
+Ejemplo:
+
+n=1
+until [ $n -gt 5 ]; do
+    echo "Valor: $n"
+    ((n++))
+done
+
+======================================================================================================================
+Bucle select (para menús)
+======================================================================================================================
+
+Sintaxis:
+
+select opcion in opcion1 opcion2 opcion3; do
+    comandos
+    break
+done
+
+Ejemplo:
+
+select comida in Pizza Pasta Ensalada; do
+    echo "Has elegido: $comida"
+    break
+done
