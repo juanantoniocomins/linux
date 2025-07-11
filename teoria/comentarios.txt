@@ -1,0 +1,6 @@
+Todo lo que esté después de un # en una línea no se ejecuta.
+Se usa para explicar el código o desactivar líneas temporalmente.
+No existen comentarios multilínea como tal, pero puedes usar varios # seguidos.
+
+
+

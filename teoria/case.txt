@@ -1,0 +1,37 @@
+============================================================
+case $variable in
+    patrón1)
+        comandos
+        ;;
+    patrón2)
+        comandos
+        ;;
+    *)
+        comandos_por_defecto
+        ;;
+esac
+============================================================
+read -p "Introduce una letra: " letra
+case $letra in
+    a) echo "Has elegido A" ;;
+    b) echo "Has elegido B" ;;
+    *) echo "Opción no reconocida" ;;
+esac
+============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
