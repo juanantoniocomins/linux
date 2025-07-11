@@ -1,0 +1,9 @@
+Operador	Tipo		Uso / Función								Ejemplo
+&&		AND lógico	Ejecuta el segundo comando solo si el primero tuvo éxito (retorno 0).	comando1 && comando2
+`				`									OR lógico
+!	Negación lógica		Niega el estado o resultado de un comando o expresión.			! comando
+-a	AND lógico (test)	AND dentro de expresiones test ([ ]), menos recomendado.		[ cond1 -a cond2 ]
+-o	OR lógico (test)	OR dentro de expresiones test ([ ]), menos recomendado.			[ cond1 -o cond2 ]
+&&	AND lógico (test)	AND dentro de expresiones [[ ]] (recomendado).				[[ cond1 && cond2 ]]
+`				`									OR lógico (test moderno)
+

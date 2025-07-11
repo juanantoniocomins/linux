@@ -1,0 +1,6 @@
+Para evaluar archivos/directorios
+Operador	Descripción			Ejemplo
+-e		Existe (archivo o directorio)	[ -e "/ruta/archivo" ]
+-f		Es un archivo regular		[ -f "/ruta/archivo.txt" ]
+-d		Es un directorio		[ -d "/ruta/directorio" ]
+-s		Tamaño > 0 bytes		[ -s "/ruta/archivo" ]

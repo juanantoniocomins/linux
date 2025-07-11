@@ -1,0 +1,9 @@
+Operadores para Redirección
+
+Operador	Descripción			Ejemplo
+>		Redirigir salida		comando > archivo.txt
+>>		Añadir a archivo		comando >> archivo.txt
+<		Redirigir entrada		comando < archivo.txt
+2>		Redirigir errores		comando 2> errores.log
+&>		Redirigir salida + errores	comando &> salida.log
+

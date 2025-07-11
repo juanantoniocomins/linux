@@ -1,0 +1,9 @@
+
+Operador	Descripción		Ejemplo
+-eq		Igual (=)		[ "$a" -eq "$b" ]
+-ne		No igual (!=)		[ "$a" -ne "$b" ]
+-gt		Mayor que (>)		[ "$a" -gt "$b" ]
+-lt		Menor que (<)		[ "$a" -lt "$b" ]
+-ge		Mayor o igual (>=)	[ "$a" -ge "$b" ]
+-le		Menor o igual (<=)	[ "$a" -le "$b" ]
+

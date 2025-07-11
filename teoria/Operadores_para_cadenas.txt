@@ -1,0 +1,9 @@
+Operadores para Cadenas (Strings)
+
+Operador	Descripción			Ejemplo
+=		Igualdad			[ "$str1" = "$str2" ]
+!=		Desigualdad			[ "$str1" != "$str2" ]
+-z		Cadena vacía			[ -z "$str" ]
+-n		Cadena no vacía			[ -n "$str" ]
+=~		Coincide con regex (en [[ ]])	[[ "$str" =~ ^[0-9]+$ ]]
+
